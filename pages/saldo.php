@@ -98,7 +98,7 @@
         </section>
 
 
-        <section class="painel-saldo">
+        <section class="painel-inicial">
 
             <div class="painel-info-saldo">
 
