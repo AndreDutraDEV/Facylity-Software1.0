@@ -1,11 +1,6 @@
-<?php
-
-include_once '../config/conexao.php';
-include_once '../config/config.login.php';
-?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -21,13 +16,7 @@ include_once '../config/config.login.php';
         <section class="login__section section">
             <div class="login__container container">
                 <img class="img" src="../img/undraw_secure_login_pdn4 2.svg" alt="">
-                <?php
-
-                if (!empty($login_err)) {
-                    echo '<div class= "alert alert-danger">' . $login_err . '</div>';
-                }
-
-                ?>
+       
                 <form class="form__content" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                     <h2 class="welcome__title">Bem Vindo</h2>
                     <h1 class="form__title">Tenha acesso exclusivo a <br> <span>Facilty Software</span></h1>
